@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 import { FaFacebook, FaLinkedin, FaSquareGithub } from "react-icons/fa6";
 import { RiInstagramFill, RiWhatsappFill } from "react-icons/ri";
-import Typical from "react-typical";
+// import Typical from "react-typical";
 import Navbar from "../navbar/Navbar";
 import { Link } from "react-router-dom";
 const Home = () => {
@@ -46,7 +46,7 @@ const Home = () => {
           <h6 className="text-xl">hello, it's me</h6>
           <h1 className="text-[3rem] font-bold">hamza abbasi</h1>
           <h4 className="text-xl">
-            <Typical
+            {/* <Typical
               className="text-[#0EA4EC]"
               steps={[
                 "and i'am  web developer",
@@ -59,7 +59,7 @@ const Home = () => {
                 5000,
               ]}
               loop={Infinity}
-            />
+            /> */}
           </h4>
           <p>
             I Specialize In Creating Interactive Websites With Web Animations,
