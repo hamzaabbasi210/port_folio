@@ -44,7 +44,7 @@ const Home = () => {
             </Link>
           </div>
           <h6 className="text-xl">hello, it's me</h6>
-          <h1 className="text-[3rem] font-bold">hamza abbasi</h1>
+          <h1 className="text-[3rem] font-bold mt-0">hamza abbasi</h1>
           <h4 className="text-xl">
             {/* <Typical
               className="text-[#0EA4EC]"
@@ -62,7 +62,13 @@ const Home = () => {
             /> */}
           </h4>
           <p>
-            I Specialize In Creating Interactive Websites With Web Animations,
+            {/* I Specialize In Creating Interactive Websites With Web Animations, */}
+            I specialize in creating interactive and visually appealing websites
+            enhanced with web animations. With a focus on user engagement and
+            modern design practices, I craft seamless experiences that captivate
+            visitors and deliver functionality with flair. My expertise ensures
+            that every project stands out with a perfect blend of creativity and
+            technology.
           </p>
           <div className="button">
             <Link to="/contact">

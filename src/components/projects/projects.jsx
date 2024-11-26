@@ -1,14 +1,93 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
 import "./project.css";
+import oldPortfolio from "/assets/portfolio2.png";
+import resStore from "/assets/Vite + React - Google Chrome 17-Jan-24 11_44_10 AM.png";
+import groceryStore from "/assets/organic_food.png";
+import Kfc from "/assets/KFC _ KFC Deals _ KFC Menu - Google Chrome 17-Jan-24 11_13_06 AM.png";
+import youtubeClone from "/assets/youtube (2).png";
+import nest from "/assets/nest.png";
+import valueBox from "/assets/valueBox.png";
 
 function projects() {
   return (
     <>
       <div className="project-container w-full max-w-[85vw] borer  m-auto mt-[5rem]">
-        <div className=" flex items-center justify-evenly flex-wrap flex-wrap my-12">
+        <div className=" flex items-center justify-evenly flex-wrap flex-row-reverse my-12">
           <div className="project-img w-[35rem]  rounded-2xl overflow-hidden">
-            <img src="src\assets\portfolio2.png" alt="" />
+            <img src={nest} alt="" />
+          </div>
+          <div className="content w-[30rem] ">
+            <h1 className="tracking-widest font-bold text-2xl mb-4">
+              Nest Grocery Store
+            </h1>
+            <p className="text-sm">
+              A responsive grocery store web application built with React.js,
+              featuring real-time product fetching from a JSON server, secure
+              login/signup using Firebase, and a seamless add-to-cart
+              functionality. Designed with a user-friendly interface, it ensures
+              an intuitive shopping experience across all devices. "{" "}
+            </p>
+            <br />
+            <p className="tracking-widest">
+              <span className="tech-stack text-[#0EA4EC] font-extrabold">
+                Tech Stack :{" "}
+              </span>{" "}
+              React.js, Tailwind CSS, Firebase
+            </p>
+            <div className="btns flex ">
+              <a
+                href="https://nest-rmhi-git-main-hamza-abbasis-projects.vercel.app/"
+                target="_blank"
+              >
+                <div className="project-btn bg-[#0EA4EC] hover:bg-[#0ea6ec94]">
+                  preview
+                </div>
+              </a>
+              <div className="project-btn bg-[#171E25] hover:bg-[#434446]">
+                github
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" flex items-center justify-evenly flex-wrap my-12">
+          <div className="project-img w-[35rem]  rounded-2xl overflow-hidden">
+            <img src={valueBox} alt="" />
+          </div>
+          <div className="content w-[30rem] ">
+            <h1 className="tracking-widest font-bold text-2xl mb-4">
+              Value Box Printing
+            </h1>
+            <p className="text-sm">
+              Value Box Printing is a responsive website for custom box
+              printing, offering a wide range of packaging solutions. Users can
+              browse products, request quotes, upload artwork, and customize
+              sizes, materials, and finishes. With interactive forms, free
+              design services, and dedicated support, it ensures a seamless and
+              user-friendly experience for all packaging needs.
+            </p>
+            <br />
+            <p className="tracking-widest">
+              <span className="tech-stack text-[#0EA4EC] font-extrabold">
+                Tech Stack :{" "}
+              </span>{" "}
+              React.js, Tailwind CSS
+            </p>
+            <div className="btns flex ">
+              <a href="https://valueboxprinting.vercel.app/" target="_blank">
+                <div className="project-btn bg-[#0EA4EC] hover:bg-[#0ea6ec94]">
+                  preview
+                </div>
+              </a>
+              <div className="project-btn bg-[#171E25] hover:bg-[#434446]">
+                github
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* <div className=" flex items-center justify-evenly flex-wrap my-12">
+          <div className="project-img w-[35rem]  rounded-2xl overflow-hidden">
+            <img src={oldPortfolio} alt="" />
           </div>
           <div className="content w-[30rem] ">
             <h1 className="tracking-widest font-bold text-2xl mb-4">
@@ -41,13 +120,10 @@ function projects() {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className=" flex items-center justify-evenly flex-wrap flex-row-reverse my-12">
           <div className="project-img w-[35rem]  rounded-2xl overflow-hidden">
-            <img
-              src="src\assets\Vite + React - Google Chrome 17-Jan-24 11_44_10 AM.png"
-              alt=""
-            />
+            <img src={resStore} alt="" />
           </div>
           <div className="content w-[30rem] ">
             <h1 className="tracking-widest font-bold text-2xl mb-4">
@@ -84,7 +160,7 @@ function projects() {
         </div>
         <div className=" flex items-center justify-evenly flex-wrap my-12">
           <div className="project-img w-[35rem]  rounded-2xl overflow-hidden">
-            <img src="src\assets\organic_food.png" alt="" />
+            <img src={groceryStore} alt="" />
           </div>
           <div className="content w-[30rem] ">
             <h1 className="tracking-widest font-bold text-2xl mb-4">
@@ -121,10 +197,7 @@ function projects() {
         </div>
         <div className=" flex items-center flex-row-reverse justify-evenly flex-wrap my-12">
           <div className="project-img w-[35rem]  rounded-2xl overflow-hidden">
-            <img
-              src="src\assets\KFC _ KFC Deals _ KFC Menu - Google Chrome 17-Jan-24 11_13_06 AM.png"
-              alt=""
-            />
+            <img src={Kfc} alt="" />
           </div>
           <div className="content w-[30rem] ">
             <h1 className="tracking-widest font-bold text-2xl mb-4">kfc</h1>
@@ -159,7 +232,7 @@ function projects() {
         </div>
         <div className=" flex items-center justify-evenly flex-wrap my-12">
           <div className="project-img w-[35rem]  rounded-2xl overflow-hidden">
-            <img src="src\assets\youtube (2).png" alt="" />
+            <img src={youtubeClone} alt="" />
           </div>
           <div className="content w-[30rem] ">
             <h1 className="tracking-widest font-bold text-2xl mb-4">

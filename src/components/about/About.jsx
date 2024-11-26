@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import Navbar from "../navbar/Navbar";
 import Card from "./Card";
-import resume from "../../assets/resume.jpg";
+import resume from "/assets/resume.pdf";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 
 const About = () => {

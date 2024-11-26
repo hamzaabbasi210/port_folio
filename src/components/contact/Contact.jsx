@@ -60,7 +60,7 @@ function Contact() {
               name="user_name"
               required
               className="w-full border 
-                            border-gray-700
+                            border-gray-700 outline-none
                             placeholder-[#70bbdd50]"
               placeholder="First Name"
             />
@@ -70,7 +70,7 @@ function Contact() {
               name="use_name"
               required
               className="w-full border 
-                            border-gray-700 
+                            border-gray-700 outline-none 
                             placeholder-[#70bbdd50]"
               placeholder="last Name"
             />
@@ -81,7 +81,7 @@ function Contact() {
             name="user_email"
             required
             placeholder="enter your email"
-            className="placeholder-[#70bbdd50] border 
+            className="outline-none placeholder-[#70bbdd50] border 
                         border-gray-700"
           />
 
@@ -90,6 +90,7 @@ function Contact() {
             className="bg-[#232D38] 
                          border border-gray-700 
                          outline-none 
+                         resize-none
                          hoer:outline-[#0EA4EC] 
                          p-[.7rem] rounded-lg 
                          placeholder-[#70bbdd50]"
